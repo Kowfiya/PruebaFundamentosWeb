@@ -15,7 +15,7 @@ a,a:hover, a:focus, a:active {
 }
 @media (min-width: 768px) {
   .contExp{
-    height: 1000px;
+    height: 1100px;
     padding: 5rem 12rem;
   }
 }
@@ -25,4 +25,17 @@ a,a:hover, a:focus, a:active {
 }
 .modal img{
   width: auto;
+}
+.navbar{
+  position:absolute;
+  width:100%;
+  z-index:10;
+  max-width:100%;
+}
+.caroColor{
+  color: white;
+  background-color: #660066;
+}
+.card p{
+  color: black;
 }
