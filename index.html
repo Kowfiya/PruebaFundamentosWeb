@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#work">Sobre mi<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Sobre mi<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -48,10 +48,75 @@
       </div>
     </nav>
 
-    <header class="py-3">
-      <h1 class="text-center padHeader">asdsad</h1>
-      <h2 class="text-white txt-center">asdasdas</h2>
-    </header>
+    <!--Carroysel principal-->
+    <section class="container-fluid p-5">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="uno">
+            <div class="row">
+              <div class="col-md-3">
+                <h1>Ilustraciones</h1>
+                <hr>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate accusantium eius esse iusto. Voluptatem nulla accusantium eos architecto alias velit asperiores veniam debitis beatae tenetur necessitatibus minima, molestias, ratione magni.</p>
+                <div>
+                  <h3>Ultimo post</h3>
+                  <hr>
+                  <div class="pt-3">
+                    <img src="assets/img/card-ballet.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <h3 class="mb-5">Trabajos</h3>
+                <div class="row">
+                  <div class="col-md-3 px-5">
+                    <img src="assets/img/card-ballet.png" alt="">
+                  </div>
+                  <div class="col-md-3 px-5">
+                      <img src="assets/img/carf-garde.png" alt="">
+                  </div>
+                  <div class="col-md-3 px-5">
+                      <img src="assets/img/img_fondo.jpg" alt="">
+                  </div>
+                </div>
+                <h3 class="my-5">Bocetos</h3>
+                <div class="row">
+                    <div class="col-md-3 px-5">
+                        <img src="assets/img/carf-garde.png" alt="">
+                    </div>
+                    <div class="col-md-3 px-5">
+                      <img src="assets/img/card-ballet.png" alt="">
+                    </div>
+                    <div class="col-md-3 px-5">
+                        <img src="assets/img/img_fondo.jpg" alt="">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="dos">
+            <div class="row">
+                <div class="col-md-3">
+                  <h1>Desarrollo Web</h1>
+                </div>
+                <div class="col-md-9">
+
+                </div>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <div class="imagen-bg"></div>
 
     <section class="container my-5 bg">
       <div class="row">
@@ -65,18 +130,84 @@
       </div>
     </section>
 
-    <section class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h3>asda</h3>
+    <!-- Carrousel con dibujos -->
+    <section class="container py-5">
+      <div class="text-center mb-5">
+        <h1>Trabajos de ilustracion</h1>
+      </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="assets/img/card-ballet.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="assets/img/carf-garde.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Trabajo para el Character design challenge del mes de diciembre.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="assets/img/card-rat.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <h3>asdss</h3>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </section>
-
     dejar imagen de fondo entera (dibujarla) hacer un carrusel con las imagenes y que se agranden
+    <footer>
+      <h5>asda</h5>
+    </footer>
     
 
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
