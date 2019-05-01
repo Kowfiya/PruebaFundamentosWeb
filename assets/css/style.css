@@ -2,10 +2,17 @@ body{
 
 }
 img{
-  height: 400px;
+
+  width: 250px;
 }
 .imagen-back{
   background-image: url("../img/img_fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.footerColor{
+  background-color: #8B00F5;
+}
+.contExp{
+  padding: 10rem 12rem;
 }
