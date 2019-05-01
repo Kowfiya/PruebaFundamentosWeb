@@ -1,0 +1,8 @@
+header{
+  background-image: url("../img/img_fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.padHeader{
+  padding-top: 20rem;
+}
