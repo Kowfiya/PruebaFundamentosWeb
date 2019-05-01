@@ -1,18 +1,28 @@
-body{
-
-}
-img{
-
-  width: 250px;
-}
-.imagen-back{
-  background-image: url("../img/img_fondo.jpg");
+header{
+  background-image: url("../img/bg-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-.footerColor{
-  background-color: #8B00F5;
+img{
+  width: 250px;
 }
-.contExp{
-  padding: 10rem 12rem;
+.footerColor{
+  background-color: #6F54FF;
+}
+a,a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: white;
+}
+@media (min-width: 768px) {
+  .contExp{
+    height: 1000px;
+    padding: 5rem 12rem;
+  }
+}
+.padingheader{
+  padding-top: 20rem;
+  padding-bottom: 8rem;
+}
+.modal img{
+  width: auto;
 }
