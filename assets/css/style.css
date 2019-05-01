@@ -1,7 +1,12 @@
+body{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+}
 header{
   background-image: url("../img/bg-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-weight: 700;
 }
 img{
   width: 250px;
