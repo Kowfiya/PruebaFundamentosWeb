@@ -2,7 +2,7 @@ body{
   font-family: 'Cabin', sans-serif;
   font-weight: 400;
 }
-header{
+.cheader{
   background-image: url("../img/bg-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,11 +18,20 @@ a,a:hover, a:focus, a:active {
   text-decoration: none;
   color: white;
 }
-@media (min-width: 768px) {
+.imgpag{
+  width: 250px;
+}
+@media (min-width: 1400px) {
   .contExp{
     height: 1100px;
     padding: 5rem 12rem;
   }
+  .imgpag{
+    height: 50px;
+  }
+}
+.contExp{
+  padding: 5rem 2rem;
 }
 .padingheader{
   padding-top: 20rem;
@@ -30,12 +39,6 @@ a,a:hover, a:focus, a:active {
 }
 .modal img{
   width: auto;
-}
-.navbar{
-  position:absolute;
-  width:100%;
-  z-index:10;
-  max-width:100%;
 }
 .caroColor{
   color: white;
